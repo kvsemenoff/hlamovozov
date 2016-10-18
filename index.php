@@ -33,13 +33,18 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/preim.php'); ?>
+	<?php require_once('includes/vivoz.php'); ?>
 	<?php require_once('includes/pochemy-mi.php'); ?>
+	<?php require_once('includes/preim.php'); ?>	
 	<?php require_once('includes/zvonok.php'); ?>
+
 	
 	<?php require_once('includes/ah-ceni.php'); ?>
+
 	<?php require_once('includes/ah-zakaz.php'); ?>
+
 	<?php require_once('includes/ah-comptext.php'); ?>
+	<?php require_once('includes/zakaz.php'); ?>
 	<?php require_once('includes/ah-contakt.php'); ?>
 
 	<?php require_once('includes/footer.php'); ?>

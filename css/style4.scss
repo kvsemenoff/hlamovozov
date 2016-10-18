@@ -5,10 +5,12 @@
 @import "style5.css";
 @import "fonts.css";
 
+
+/*================== Почему мы ===========================*/
+
 .padding-top-col{
 	padding-top:39px;
 }
-
 .ab-pochemy-mi{
 	text-align:center;
 	padding-top:15px;
@@ -49,8 +51,6 @@
 		}
 	}
 	.ab-medal{
-		//margin-top:62px;
-		//margin-bottom: 100px;
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
@@ -67,7 +67,124 @@
 	}
 }
 
+/*================== Конец Почему мы ===================*/
 
+/*================== Звонок =====================*/
+
+.ab-zvonok{
+	background: url(../img/ab-bg-zvonok.jpg) center;
+	background-size:cover;
+	width:100%;
+	text-align:center;
+	.ab-zvonok-title{
+		font-family: "RobotoBold";
+		font-size: 20px;
+		color: #fff; 
+	}
+	.vhod-bottom{
+	    width: 100%;
+	    display: -webkit-flex; 
+	    display: flex; 
+	    justify-content: space-between;
+	    align-items: center;
+	    //margin-bottom: 55px;
+	    //padding-top:58px;
+	    margin-bottom: 20px;
+	    padding-top:20px;
+	}
+
+	.search-box{
+	    width: 250px;
+	    margin: 0 auto;
+	    .ab-first-input{
+	    	position:relative;
+	    }
+	    .ab-first-input:after{
+			position:absolute;
+			content:" ";
+			background: url(../img/ab-chel.png) no-repeat left;
+			width: 20px;
+			height: 20px;
+			top: 29px;
+			right: 94px;
+	    }
+	    .ab-second-input{
+	    	position:relative;
+	    }
+	    .ab-second-input:after{
+			position:absolute;
+			content:" ";
+			background: url(../img/ab-tel.png) no-repeat left;
+			width: 19px;
+			height: 20px;
+			top: 29px;
+			right: 94px;
+	    }
+	}
+	.ab-form{
+	    display: block;
+	    position: relative;
+	    border-radius: 5px;
+	    width: 250px;
+	    height: 48px;
+	    border: 1px solid #cbd1d6;
+	    box-sizing: border-box;
+		 
+		input[type="text"]{
+		    width: 250px;
+		    height: 49px;
+		    line-height: 51px;
+		    padding: 0px 40px;
+		    border: none;
+		    box-sizing: border-box;
+		    z-index: 10;
+		    top: 0;
+		    left: 0;
+		    font-size: 18px;
+		    color: #97a3ad;
+		    outline: none !important;
+		    letter-spacing: .02em;
+		    font-family: "RobotoRegular";
+		    max-height: 100%;
+		    overflow: hidden;
+		    border-radius:4px;
+		}
+    }
+    .ab-zvonok-button{
+    	padding-top:20px;
+    	padding-bottom:20px;
+    	text-align: center;
+		.ab-button{
+			display: inline-block;
+			background:#FFC600;
+			padding:12px 38px;
+			font-family: "RobotoBold";
+			font-size: 18px;
+			color: #131313;
+			border-radius:5px;
+		}
+    }
+    .ab-zvonok-tel{
+		font-family: "RobotoRegular";
+		font-size: 28px;
+		color: #fff;
+		padding:30px 0;
+    }
+    .ab-zvonok-tel-3{
+		font-family: "RobotoRegular";
+		font-size: 28px;
+		color: #fff;
+    }
+     .ab-zvonok-tel-2{
+		font-size: 22px;
+		font-family: "RobotoRegular";
+		color: #fff;
+		//padding-right:152px;
+		//padding-bottom:10px;
+    }
+}
+
+/*================== Конец Звонок =====================*/
 
 
 
@@ -75,6 +192,32 @@
 }
 
 @media only screen and (min-width : 480px) {
+
+	.search-box{
+	    min-width: 375px;
+	    .ab-first-input{
+	    	position:relative;
+	    }
+	    .ab-first-input:after{
+			width: 20px;
+			height: 20px;
+			top: 29px;
+			right: 157px !important;
+	    }
+
+	    .ab-second-input:after{
+			width: 19px;
+			height: 20px;
+			top: 29px;
+			right: 157px !important;
+	    }
+	}
+	.ab-form{
+	    min-width: 375px;
+		input[type="text"]{
+		    min-width: 375px;
+		}
+	}	
 
 	.ab-pochemy-mi-title{
 		span{
@@ -89,6 +232,7 @@
 			font-size: 48px !important;
 		}
 	}
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -110,6 +254,48 @@
 		margin-bottom: 100px !important;
 		
 	}
+
+	.vhod-bottom{
+	    margin-bottom: 55px !important;
+	    padding-top:58px !important;
+	}    
+	.ab-zvonok-button{
+    	padding-top:58px !important;
+    	text-align: left !important;
+    }
+    .ab-zvonok-title{
+    	padding-right:149px;
+    	padding-top:48px;
+		span{
+			font-size: 48px;
+		}
+    }
+   .ab-zvonok-tel{
+   	padding-right:166px !important;
+   	padding-top:0 !important;
+   	padding-bottom: 76px !important;
+   		span{
+			font-size: 48px !important;
+		}
+    }
+    .ab-zvonok-tel-2{
+		font-size: 36px !important;
+		font-family: "RobotoRegular";
+		color: #fff;
+		padding-right:152px;
+		padding-bottom:10px;
+    }
+    .ab-zvonok-tel-3{
+		font-family: "RobotoRegular";
+		font-size: 48px !important;
+		color: #fff;
+		padding-right:163px;
+		padding-bottom:4px;
+    }
+    .ab-soc{
+		padding-right:137px;
+		padding-bottom:40px;
+    }
 }
 
 @media only screen and (min-width : 1248px) {
