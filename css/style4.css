@@ -1,2 +1,206 @@
+<<<<<<< HEAD
 @import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(style5.css);@import url(fonts.css);.padding-top-col{padding-top:39px}.ab-pochemy-mi{text-align:center;padding-top:15px}.ab-pochemy-mi .ab-pochemy-mi-img-box{margin:0 auto;border:3px solid #fff;background:url(../img/ab-p1.png) center;width:105px;height:105px;box-shadow:0 0 5px 2px rgba(122,122,122,0.5);border-radius:60px}.ab-pochemy-mi .ab-pochemy-mi-img-box2{background:url(../img/ab-p2.png) center}.ab-pochemy-mi .ab-pochemy-mi-img-box3{background:url(../img/ab-p3.png) center}.ab-pochemy-mi .ab-pochemy-mi-img-box4{background:url(../img/ab-p4.png) center}.ab-pochemy-mi .ab-pochemy-mi-img-box5{background:url(../img/ab-p5.png) center}.ab-pochemy-mi .ab-pochemy-mi-img-box6{background:url(../img/ab-p6.png) center}.ab-pochemy-mi .ab-pochemy-mi-txt{padding-top:15px}.ab-pochemy-mi .ab-pochemy-mi-txt span{display:block}.ab-pochemy-mi .ab-pochemy-mi-txt span:first-child{font-family:"RobotoBold"}.ab-pochemy-mi .ab-pochemy-mi-txt span:last-child{font-family:"RobotoRegular"}.ab-pochemy-mi .ab-medal{margin-bottom:30px;margin-top:30px}.ab-pochemy-mi .ab-medal-bottom{margin-bottom:4px !important}.ab-pochemy-mi .ab-pochemy-mi-title{text-align:center;padding-bottom:25px}.ab-pochemy-mi .ab-pochemy-mi-title span{font-family:"RobotoBold";font-size:28px}.ab-zvonok{background:url(../img/ab-bg-zvonok.jpg) center;background-size:cover;width:100%;text-align:center}.ab-zvonok .ab-zvonok-title{font-family:"RobotoBold";font-size:20px;color:#fff}.ab-zvonok .vhod-bottom{width:100%;display:-webkit-flex;display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding-top:20px}.ab-zvonok .search-box{width:250px;margin:0 auto}.ab-zvonok .search-box .ab-first-input{position:relative}.ab-zvonok .search-box .ab-first-input:after{position:absolute;content:" ";background:url(../img/ab-chel.png) no-repeat left;width:20px;height:20px;top:29px;right:94px}.ab-zvonok .search-box .ab-second-input{position:relative}.ab-zvonok .search-box .ab-second-input:after{position:absolute;content:" ";background:url(../img/ab-tel.png) no-repeat left;width:19px;height:20px;top:29px;right:94px}.ab-zvonok .ab-form{display:block;position:relative;border-radius:5px;width:250px;height:48px;border:1px solid #cbd1d6;box-sizing:border-box}.ab-zvonok .ab-form input[type="text"]{width:250px;height:49px;line-height:51px;padding:0px 40px;border:none;box-sizing:border-box;z-index:10;top:0;left:0;font-size:18px;color:#97a3ad;outline:none !important;letter-spacing:.02em;font-family:"RobotoRegular";max-height:100%;overflow:hidden;border-radius:4px}.ab-zvonok .ab-zvonok-button{padding-top:20px;padding-bottom:20px;text-align:center}.ab-zvonok .ab-zvonok-button .ab-button{display:inline-block;background:#FFC600;padding:12px 38px;font-family:"RobotoBold";font-size:18px;color:#131313;border-radius:5px}.ab-zvonok .ab-zvonok-tel{font-family:"RobotoRegular";font-size:28px;color:#fff;padding:30px 0}.ab-zvonok .ab-zvonok-tel-3{font-family:"RobotoRegular";font-size:28px;color:#fff}.ab-zvonok .ab-zvonok-tel-2{font-size:22px;font-family:"RobotoRegular";color:#fff}@media only screen and (min-width: 480px){.search-box{min-width:375px}.search-box .ab-first-input{position:relative}.search-box .ab-first-input:after{width:20px;height:20px;top:29px;right:157px !important}.search-box .ab-second-input:after{width:19px;height:20px;top:29px;right:157px !important}.ab-form{min-width:375px}.ab-form input[type="text"]{min-width:375px}.ab-pochemy-mi-title span{font-size:35px !important}}@media only screen and (min-width: 768px){.ab-pochemy-mi-title span{font-size:48px !important}}@media only screen and (min-width: 992px){.ab-pochemy-mi{text-align:left}.ab-pochemy-mi .ab-pochemy-mi-img-box{float:left}.ab-pochemy-mi .ab-pochemy-mi-txt{float:left;padding-left:34px;max-width:450px;padding-top:11px}.ab-medal{margin-top:62px !important;margin-bottom:100px !important}.vhod-bottom{margin-bottom:55px !important;padding-top:58px !important}.ab-zvonok-button{padding-top:58px !important;text-align:left !important}.ab-zvonok-title{padding-right:149px;padding-top:48px}.ab-zvonok-title span{font-size:48px}.ab-zvonok-tel{padding-right:166px !important;padding-top:0 !important;padding-bottom:76px !important}.ab-zvonok-tel span{font-size:48px !important}.ab-zvonok-tel-2{font-size:36px !important;font-family:"RobotoRegular";color:#fff;padding-right:152px;padding-bottom:10px}.ab-zvonok-tel-3{font-family:"RobotoRegular";font-size:48px !important;color:#fff;padding-right:163px;padding-bottom:4px}.ab-soc{padding-right:137px;padding-bottom:40px}}
+=======
+@charset "UTF-8";
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style5.css);
+@import url(fonts.css);
+/*================== ╨Я╨╛╤З╨╡╨╝╤Г ╨╝╤Л ===========================*/
+.padding-top-col {
+  padding-top: 39px; }
+
+.ab-pochemy-mi {
+  text-align: center;
+  padding-top: 15px; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box {
+    margin: 0 auto;
+    border: 3px solid #fff;
+    background: url(../img/ab-p1.png) center;
+    width: 105px;
+    height: 105px;
+    box-shadow: 0 0 5px 2px rgba(122, 122, 122, 0.5);
+    border-radius: 60px; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box2 {
+    background: url(../img/ab-p2.png) center; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box3 {
+    background: url(../img/ab-p3.png) center; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box4 {
+    background: url(../img/ab-p4.png) center; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box5 {
+    background: url(../img/ab-p5.png) center; }
+  .ab-pochemy-mi .ab-pochemy-mi-img-box6 {
+    background: url(../img/ab-p6.png) center; }
+  .ab-pochemy-mi .ab-pochemy-mi-txt {
+    padding-top: 15px; }
+    .ab-pochemy-mi .ab-pochemy-mi-txt span {
+      display: block; }
+    .ab-pochemy-mi .ab-pochemy-mi-txt span:first-child {
+      font-family: "RobotoBold"; }
+    .ab-pochemy-mi .ab-pochemy-mi-txt span:last-child {
+      font-family: "RobotoRegular"; }
+  .ab-pochemy-mi .ab-medal {
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .ab-pochemy-mi .ab-medal-bottom {
+    margin-bottom: 4px !important; }
+  .ab-pochemy-mi .ab-pochemy-mi-title {
+    text-align: center;
+    padding-bottom: 25px; }
+    .ab-pochemy-mi .ab-pochemy-mi-title span {
+      font-family: "RobotoBold";
+      font-size: 28px; }
+
+/*================== ╨Ъ╨╛╨╜╨╡╤Ж ╨Я╨╛╤З╨╡╨╝╤Г ╨╝╤Л ===================*/
+/*================== ╨Ч╨▓╨╛╨╜╨╛╨║ =====================*/
+.ab-zvonok {
+  background: url(../img/ab-bg-zvonok.jpg) center;
+  background-size: cover;
+  width: 100%;
+  text-align: center; }
+  .ab-zvonok .ab-zvonok-title {
+    font-family: "RobotoBold";
+    font-size: 20px;
+    color: #fff; }
+  .ab-zvonok .vhod-bottom {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 20px; }
+  .ab-zvonok .search-box {
+    width: 250px;
+    margin: 0 auto; }
+    .ab-zvonok .search-box .ab-first-input {
+      position: relative; }
+    .ab-zvonok .search-box .ab-first-input:after {
+      position: absolute;
+      content: " ";
+      background: url(../img/ab-chel.png) no-repeat left;
+      width: 20px;
+      height: 20px;
+      top: 29px;
+      right: 94px; }
+    .ab-zvonok .search-box .ab-second-input {
+      position: relative; }
+    .ab-zvonok .search-box .ab-second-input:after {
+      position: absolute;
+      content: " ";
+      background: url(../img/ab-tel.png) no-repeat left;
+      width: 19px;
+      height: 20px;
+      top: 29px;
+      right: 94px; }
+  .ab-zvonok .ab-form {
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    width: 250px;
+    height: 48px;
+    border: 1px solid #cbd1d6;
+    box-sizing: border-box; }
+    .ab-zvonok .ab-form input[type="text"] {
+      width: 250px;
+      height: 49px;
+      line-height: 51px;
+      padding: 0px 40px;
+      border: none;
+      box-sizing: border-box;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      font-size: 18px;
+      color: #97a3ad;
+      outline: none !important;
+      letter-spacing: .02em;
+      font-family: "RobotoRegular";
+      max-height: 100%;
+      overflow: hidden;
+      border-radius: 4px; }
+  .ab-zvonok .ab-zvonok-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; }
+    .ab-zvonok .ab-zvonok-button .ab-button {
+      display: inline-block;
+      background: #FFC600;
+      padding: 12px 38px;
+      font-family: "RobotoBold";
+      font-size: 18px;
+      color: #131313;
+      border-radius: 5px; }
+  .ab-zvonok .ab-zvonok-tel {
+    font-family: "RobotoRegular";
+    font-size: 28px;
+    color: #fff;
+    padding: 30px 0; }
+
+/*================== ╨Ъ╨╛╨╜╨╡╤Ж ╨Ч╨▓╨╛╨╜╨╛╨║ =====================*/
+@media only screen and (min-width: 480px) {
+  .search-box {
+    min-width: 375px; }
+    .search-box .ab-first-input {
+      position: relative; }
+    .search-box .ab-first-input:after {
+      width: 20px;
+      height: 20px;
+      top: 29px;
+      right: 157px !important; }
+    .search-box .ab-second-input:after {
+      width: 19px;
+      height: 20px;
+      top: 29px;
+      right: 157px !important; }
+
+  .ab-form {
+    min-width: 375px; }
+    .ab-form input[type="text"] {
+      min-width: 375px; }
+
+  .ab-pochemy-mi-title span {
+    font-size: 35px !important; } }
+@media only screen and (min-width: 768px) {
+  .ab-pochemy-mi-title span {
+    font-size: 48px !important; } }
+@media only screen and (min-width: 992px) {
+  .ab-pochemy-mi {
+    text-align: left; }
+    .ab-pochemy-mi .ab-pochemy-mi-img-box {
+      float: left; }
+    .ab-pochemy-mi .ab-pochemy-mi-txt {
+      float: left;
+      padding-left: 34px;
+      max-width: 450px;
+      padding-top: 11px; }
+
+  .ab-medal {
+    margin-top: 62px !important;
+    margin-bottom: 100px !important; }
+
+  .vhod-bottom {
+    margin-bottom: 55px !important;
+    padding-top: 58px !important; }
+
+  .ab-zvonok-button {
+    padding-top: 58px !important;
+    text-align: left !important; }
+
+  .ab-zvonok-title {
+    padding-right: 149px;
+    padding-top: 48px; }
+    .ab-zvonok-title span {
+      font-size: 48px; }
+
+  .ab-zvonok-tel {
+    padding-right: 166px !important;
+    padding-top: 0 !important;
+    padding-bottom: 76px !important; }
+    .ab-zvonok-tel span {
+      font-size: 48px !important; } }
+
+>>>>>>> 948351a36256a73a49630d33838b0bc729a9758e
 /*# sourceMappingURL=style4.css.map */
