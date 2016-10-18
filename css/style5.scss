@@ -7,12 +7,32 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.zk_caption{
+		font-size:31px !important;
+	}	
 }
 
 @media only screen and (min-width : 992px) {
+	.zk_caption{
+		font-size:38px !important;
+	}	
 }
 
 @media only screen and (min-width : 1248px) {
+	.zk_second_line{
+		padding-left: 165px;
+	} 
+
+	.zk_preim_all{
+	.zk_caption{
+		font-size:48px !important;
+	}	
+	.zk_preim{			
+		.zk_pr_ph{			
+			width:300px !important;				
+		}
+	}
+}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -28,34 +48,44 @@
 
 
 
-
+.clear{
+	clear:both;
+}
 
 .zk_preim_all{
 	width:100%;
 	height:auto;
 	text-align: center;
-	font-family:"Roboto Regular"; 
+	font-family: "RobotoRegular";
+	font-size: 16px;
+	margin-bottom: 110px;
+	color:#646464;	
+	.zk_caption{
+		font-size: 28px;
+		font-family: "RobotoBold";
+		color:#31343b;
+		margin: 60px 0;
+	}
 	.zk_preim{
 		text-align: center;		
 		.zk_pr_ph{							
-			padding:30px 10px;
+			padding:20px 10px;
 			float: left;
+			width:300px;			
 			div:last-child{				
 				height:40px;
-				width: 320px;
-				outline:1px solid red;
+				//max-width: 316px;				
 				margin-top: 20px;
 			}
 			.zk-img-box{	
 				margin:0 auto;			
-				height:135px;
-				width:135px;				
+				height:141px;
+				width:140px;				
 				border:3px solid white;				
-				border-radius: 70px;
-				box-shadow: 3px 5px 15px rgba(red, 0.9);
+			    border-radius: 70px;
+			    box-shadow: 2px 5px 15px rgba(red, 0.2);
 				margin-bottom: 20px;
 			}
 		}
-
 	}
 }

@@ -1,5 +1,5 @@
 <div class="zk_preim_all">
-	<div class="">
+	<h3 class="zk_caption">Наши преимущества</h3>	
 		<div class="zk_preim">
 			<div class="zk_pr_ph">	
 				<div class="zk-img-box">
@@ -27,27 +27,28 @@
 					<div>Собственный парк техники</div>				
 			</div>
 			
-
-			<div class="zk_pr_ph">
-				<div class="zk-img-box">
-			 	<img src="img/zk_pre_5.png" alt="">
-			 	</div>
-			 	<div>Постоянно растущее количество бригад</div>
+			<div class="zk_second_line">
+				<div class="zk_pr_ph">
+					<div class="zk-img-box">
+				 	<img src="img/zk_pre_5.png" alt="">
+				 	</div>
+				 	<div>Постоянно растущее количество бригад</div>
+				</div>
+				<div class="zk_pr_ph">
+					<div class="zk-img-box">
+				 	<img src="img/zk_pre_6.png" alt="">
+				 	</div>
+				 	<div>Зона обслуживания Москва и до 50 км вокруг Москвы</div>
+				</div>
+				<div class="zk_pr_ph">
+					<div class="zk-img-box">
+				 	<img src="img/zk_pre_7.png" alt="">
+				 	</div>
+				 	<div>Официальные договора со свалками ТБО (мусор не выкинут в соседний лес)</div>
+				</div>
 			</div>
-			<div class="zk_pr_ph">
-				<div class="zk-img-box">
-			 	<img src="img/zk_pre_6.png" alt="">
-			 	</div>
-			 	<div>Зона обслуживания Москва и до 50 км вокруг Москвы</div>
-			</div>
-			<div class="zk_pr_ph">
-				<div class="zk-img-box">
-			 	<img src="img/zk_pre_7.png" alt="">
-			 	</div>
-			 	<div>Официальные договора со свалками ТБО (мусор не выкинут в соседний лес)</div>
-			</div>
-		</div>	
-	</div>
+		</div>
+	<div class="clear"></div>
 </div>
 
 
