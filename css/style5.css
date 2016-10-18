@@ -1,3 +1,25 @@
-
+.zk_preim_all {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Roboto Regular"; }
+  .zk_preim_all .zk_preim {
+    text-align: center; }
+    .zk_preim_all .zk_preim .zk_pr_ph {
+      padding: 30px 10px;
+      float: left; }
+      .zk_preim_all .zk_preim .zk_pr_ph div:last-child {
+        height: 40px;
+        width: 320px;
+        outline: 1px solid red;
+        margin-top: 20px; }
+      .zk_preim_all .zk_preim .zk_pr_ph .zk-img-box {
+        margin: 0 auto;
+        height: 135px;
+        width: 135px;
+        border: 3px solid white;
+        border-radius: 70px;
+        box-shadow: 3px 5px 15px rgba(255, 0, 0, 0.9);
+        margin-bottom: 20px; }
 
 /*# sourceMappingURL=style5.css.map */
