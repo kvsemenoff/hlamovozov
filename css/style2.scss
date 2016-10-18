@@ -5,6 +5,59 @@
 @import "style4.css";
 @import "fonts.css";
 
+// comptext***************************************
+.ah-comptext-title{
+	display: block;
+	color: #31343b;
+	font-family: "RobotoBold";
+	font-size: 48px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+.ah-comptext1{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #656565;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	span{
+		color: #d22c00;
+		font-family: "RobotoRegular";
+		font-size: 14px;
+		line-height: 22px;
+		text-decoration: underline;
+	}
+}
+.ah-comptext-subtitle{
+	display: block;
+	font-family: "RobotoBold";
+	color: #030303;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+.ah-comptext-span{
+	position: relative;
+	display: block;
+	font-family: "RobotoRegular";
+	color: #656565;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 18px;
+}
+.ah-comptext-span:before{
+	position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    left: 0px;
+    background: url(../img/ah-text3.png) center center no-repeat;
+}
+// comptext***************************************
+
+
 @media only screen and (min-width : 320px) {
 }
 
