@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="ab-otziv-title">
+				<div class="ab-otziv-title" >
 					<span>Оставьте отзыв</span>
 				</div>
 			</div>
