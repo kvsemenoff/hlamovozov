@@ -1,4 +1,4 @@
-<section class="ab-zvonok">
+<section class="ab-zvonok ab-zvonok2">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

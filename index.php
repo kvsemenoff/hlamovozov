@@ -1,10 +1,10 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Главная</title>
-
+	
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
@@ -33,12 +33,16 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/osush.php'); ?>
 	<?php require_once('includes/vivoz.php'); ?>
 	<?php require_once('includes/pochemy-mi.php'); ?>
-	<?php require_once('includes/preim.php'); ?>	
 	<?php require_once('includes/zvonok.php'); ?>
+	<?php require_once('includes/preim.php'); ?>	
+	
 
 	
+
+
 	<?php require_once('includes/ah-ceni.php'); ?>
 
 	<?php require_once('includes/ah-zakaz.php'); ?>
