@@ -6,8 +6,123 @@
 @import "fonts.css";
 
 
+// ZAKAZ***************************************
+.ah-zakaz{
+	padding: 20px;
+	background: url(../img/ah-cenifonbottom.jpg) top center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.ah-zakaz-span{
+	display: block;
+	font-family: "RobotoBold";
+	color: #fff;
+	font-size: 40px;
+	line-height: 36px;
+}
+.ah-zakaz-link{
+	display: block;
+	width: 100%;
+	height: 57px;
+	background-color: #ffc501;
+	border-radius: 5px;
+	font-family: "RobotoBold";
+	color: #1a1a1a;
+	font-size: 22px;
+	line-height: 56px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 15px;
+}
+.ah-zakaz-link:hover{
+	background: lighten(#ffc501, 20%);
+}
+// CENI******************************************
+.ah-ceniiimg{
+	display: none;
+	position: absolute;
+	background: none;
+	width: 261px;
+	height: 207px;
+	top: -21px;
+	right: 0px;
+	padding: 38px 57px 10px 10px; 
+}
+.ah-br{
+	display: none;
+}
+.ah-ceniiimg-span{
+	display: block;
+	font-family: "RobotoBold";
+	color: #202020;
+	font-size: 18px;
+	text-align: center;
+	span{
+		color: #c00;
+		font-size: 48px;
+		line-height: 42px;
+	}
+}
+.ah-ceni{
+	position: relative;
+	padding: 20px;
+	background: url(../img/ah-cenifon.jpg) top center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.ah-ceni-title{
+	position: relative;
+	display: block;
+	font-family: "RobotoBold";
+	// text-shadow: 0 1px 0 rgba(255, 245, 205, 0.44);
+	color: #202020;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.ah-ceni-title:before{
+	display: none;
+	position: absolute;
+    content: "";
+    width: 468px;
+    height: 244px;
+    top: -124px;
+    left: -218px;
+    background: none;
+}
+.ah-ceni-wrap{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin: 20px 0px;
+	margin-left: 0px;
 
+}
+.ah-item-span{
+	position: absolute;
+	left: 0px;
+	bottom: -46px;
+	display: block;
+	font-family: "RobotoRegular";
+	color: #000;
+	font-size: 24px;
+	line-height: 22px;
+	margin-top: 15px;
+}
+.ah-ceni-item{
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 0px;
+}
+.ah-ceni-item1{
+	margin-right: 0px;
+}
 // contact****************************************
+.ah-contakt{
+	padding: 20px 0px;
+}
 .ah-contakt-bottom{
 	width: 100%;
 	height: 300px;
@@ -35,7 +150,7 @@
 	font-family: "RobotoBold";
 	color: #343434;
 	font-size: 48px;
-	line-height: 22px;
+	line-height: 39px;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -65,6 +180,7 @@
 // comptext***************************************
 .ah-comptext{
 	position: relative;
+	padding: 70px 0px;
 }
 .ah-comptext:after{
 	display: none;
@@ -141,15 +257,78 @@
 
 
 @media only screen and (min-width : 320px) {
+	.ah-ceni-title{
+		font-size: 44px;
+	}
 }
 
 @media only screen and (min-width : 480px) {
 }
 
 @media only screen and (min-width : 768px) {
+	
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-ceniiimg{
+		display: block;
+		position: absolute;
+		background: url(../img/ah-ceniiimg.png) center center no-repeat;
+		width: 261px;
+		height: 207px;
+		top: -21px;
+		right: 0px;
+		padding: 38px 57px 10px 10px; 
+	}
+	.ah-ceni-title:before{
+		display: block;
+		position: absolute;
+	    content: "";
+	    width: 468px;
+	    height: 244px;
+	    top: -124px;
+	    left: -218px;
+	    background: url(../img/ah-ceniicar.png) center center no-repeat;
+	}
+	.ah-br{
+		display: block;
+	}
+	.ah-contakt{
+		padding: 70px 0px;
+	}
+	.ah-contakt-span2{
+		line-height: 22px;
+	}
+	.ah-ceni-wrap{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin: 50px 0px;
+		margin-left: 15%;
+	}
+	.ah-ceni-item{
+		position: relative;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 156px;
+	}
+	.ah-zakaz{
+		padding: 50px 20px;
+	}
+	.ah-ceni{
+		position: relative;
+		padding: 60px 20px;
+	}
+	.ah-zakaz-link{
+		display: inline-block;
+		width: 263px;
+		height: 57px;
+		margin-left: 26px;
+		margin-top: 0px;
+	}
+	.ah-zakaz-span{
+		display: inline-block;
+	}
 	.ah-comptext-title{
 		text-align: left;
 		line-height: 22px;
