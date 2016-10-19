@@ -11,7 +11,7 @@
 						<span class="ah-contakt-span1">8 (495) 502-93-30</span>
 					</div>
 					<div class="ah-contakt-bottom">
-						<div id="map"></div>
+						<!-- <div id="map"></div> -->
 					</div>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 						<span class="ah-contakt-span1">8 (812) 012-12-12</span>
 					</div>
 					<div class="ah-contakt-bottom">
-						<div id="map1"></div>
+						<!-- <div id="map1"></div> -->
 					</div>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 						<span class="ah-contakt-span1">8 (495) 502-93</span>
 					</div>
 					<div class="ah-contakt-bottom">
-						<div id="map2"></div>
+						<!-- <div id="map2"></div> -->
 					</div>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 						<span class="ah-contakt-span1">8 (554) 054-45-45</span>
 					</div>
 					<div class="ah-contakt-bottom">
-						<div id="map3"></div>
+						<!-- <div id="map3"></div> -->
 					</div>
 				</div>
 			</div>

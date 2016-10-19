@@ -1,5 +1,4 @@
-<div class="zk_vivoz">
-	
+<div class="zk_vivoz">	
 	<div class="zk_vivoz_man"><img src="img/zk_vivoz_man.png" alt=""></div>
 	<h3 class="zk_vivoz_caption">Причина вывоза мусора</h3>
 	<div class="first_v">
@@ -19,6 +18,6 @@
 			<li>Вывоз мусора после переезда (квартиры, офисы, склады, торговые точки, развлекательные мероприятия) </li>
 		</ul>
 	</div>
-	<div class="clear"></div>
+	<div class="clear"></div>	
 </div>
 

@@ -8,7 +8,7 @@
 		    <div class="ah-ceniiimg">
 		    	<span class="ah-ceniiimg-span">От<br><span>200</span><br>рублей за<br>предмет</span>
 		    </div>
-				<span class="ah-ceni-title">Низкие цены для всех<br class="ah-br">и<br>постоянные скидки</span>
+				<span class="ah-ceni-title">Низкие цены для всех<br class="ah-br"> и <br>постоянные скидки</span>
 				<div class="ah-ceni-wrap">
 					<div class="ah-ceni-item">
 						<img src="img/ah-ceniiimg1.png" alt="ah-ceniiimg1">
