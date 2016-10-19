@@ -1,6 +1,7 @@
 <div class="zk_vivoz">
-	<h3 class="zk_vivoz_caption">Причина вывоза мусора</h3>
+	
 	<div class="zk_vivoz_man"><img src="img/zk_vivoz_man.png" alt=""></div>
+	<h3 class="zk_vivoz_caption">Причина вывоза мусора</h3>
 	<div class="first_v">
 	<ul>
 		<li>Покупка новой мебели, старение старой.</li>
