@@ -79,7 +79,7 @@
 	color: #202020;
 	font-size: 48px;
 	line-height: 48px;
-	text-align: center;
+	// text-align: center;
 }
 .ah-ceni-title:before{
 	display: none;
@@ -106,7 +106,7 @@
 	display: block;
 	font-family: "RobotoRegular";
 	color: #000;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 22px;
 	margin-top: 15px;
 }
@@ -270,6 +270,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-item-span{
+		font-size: 24px;
+	}
 	.ah-ceniiimg{
 		display: block;
 		position: absolute;
