@@ -38,7 +38,8 @@
 	<?php require_once('includes/vivoz.php'); ?>
 	<?php require_once('includes/pochemy-mi.php'); ?>
 	<?php require_once('includes/zvonok.php'); ?>
-	<?php require_once('includes/preim.php'); ?>	
+	<?php require_once('includes/preim.php'); ?>
+	<?php require_once('includes/ab-otziv.php'); ?>	
 	
 
 	
