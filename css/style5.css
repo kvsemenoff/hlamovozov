@@ -76,7 +76,7 @@
 
   .zk_we_export_all {
     padding-left: 50px !important;
-    margin-bottom: -170px !important; }
+    margin-bottom: -15px !important; }
     .zk_we_export_all .zk_ex_caption {
       font-size: 48px !important; }
     .zk_we_export_all .zk_export_one {
@@ -157,7 +157,8 @@
   padding-left: 30px; }
   .zk_we_export_all .zk_ex_caption {
     font-size: 33px;
-    color: #212121; }
+    color: #212121;
+    margin-top: 70px; }
   .zk_we_export_all .zk_export_one {
     float: left;
     width: 215px;
