@@ -193,6 +193,263 @@
 
 
 
+/*================== Отзывы =====================*/
+
+.ab-otziv{
+	background:url(../img/ab-bg-3.jpg) no-repeat center;
+	background-size:cover;
+	padding:93px 0 98px;
+	.ab-otziv-title{
+		text-align: center;
+		span{
+			font-family: "RobotoBold";
+			font-size: 28px;
+		}
+	}
+	.ab-otziv-face-wrap{
+		width: 200px;
+		margin: 0 auto;
+		padding-top:60px;
+		.ab-face-img-wrap{
+			padding-left:15px;
+			.ab-face-img{
+				width: 166px;
+				height: 162px;
+				border:0px solid #fff;
+				border-radius:84px;
+				box-shadow: 2px 15px 15px rgba(188, 188, 188, 0.7);
+			}
+		}
+		.ab-face-txt{
+			padding-top:20px;
+			span{
+				font-family: "RobotoBold";
+				font-size: 24px;
+				color: #31A900;
+			}
+		}
+		.ab-face-txt-2{
+			padding-left:22px;
+			span{
+				color: #D2A900;
+			}
+		}
+		.ab-face-txt-3{
+			padding-left:7px;
+			span{
+				color: #F40000;
+			}
+		}
+		.ab-face-number{
+			background:url(../img/ab-bg-num.png) no-repeat center;
+			width: 127px;
+			height: 40px;
+			padding-top:14px;
+			padding:4px 0px;
+			margin-top: 7px;
+			margin-left: 31px;
+			position:relative;
+			span{
+				font-family: "Arial";
+				font-weight: bold;
+				font-size: 28px;
+				padding-left:8px;
+			}
+			span:nth-child(2){
+				padding-left:11px;
+			}
+			span:nth-child(3){
+				padding-left:12px;
+			}
+			span:nth-child(4){
+				padding-left:13px;
+			}
+		}
+		.ab-face-number:after{
+			background:url(../img/ab-line.png) no-repeat center;
+			content: "";
+			position:absolute;
+			width: 128px;
+			height: 6px;
+			top: 17px;
+			right: -1px;
+		}
+		.ab-face-number-2{
+			background:url(../img/ab-bg-num-2.png) no-repeat center !important;
+			width:95px;
+			height: 40px; 
+			position:relative;
+			margin-left:50px;
+		}
+		.ab-face-number-2:after{
+			background:url(../img/ab-line-2.png) no-repeat center !important;
+			content: "";
+			position:absolute;
+			width: 97px;
+			height: 6px;
+			right: -1px;
+			top: 17px;
+		}
+	}
+	.ab-comments-wrap{
+		margin-top:32px; 
+		background:#fff;
+		//padding:50px 70px;
+		padding:50px 15px;
+		box-shadow: 0 0 5px 3px #D5D5D5;
+		border-radius:5px;
+		.ab-comments-txt{
+			text-align: center;
+			span{
+				display: block;
+			}
+			span:first-child{
+				font-family: "RobotoBold";
+				font-size: 20px;
+				padding-bottom:33px;
+			}
+			span:last-child{
+				font-family: "RobotoRegular";
+				font-size: 16px;
+				color: #797979;
+			}
+		}
+		.ab-comform-wrap{
+			margin-top:37px; 
+			.ab-comform{
+				.ab-text-area{
+					border:1px solid #D0D0D0;
+					border-radius:5px;
+					resize: none;
+					padding-top:5px;
+					padding-left:5px;
+					font-family: "RobotoRegular";
+					font-size: 16px;
+					height: 118px;
+				}
+			}
+		}
+		.ab-chekbos-title{
+			font-family: "RobotoBold";
+			font-size: 18px;
+			padding-bottom:11px;
+			text-align: center;
+			padding-top:10px;
+		}
+		.ab-my-chekbox-wrap{
+			width: 102px;
+			height: 74px;
+			margin:0 auto;
+			.ab-chekbox-span{
+				font-family: "RobotoRegular";
+				font-size: 12px;
+				color:#B1B1B1;
+				padding-top: 11px;
+			}
+			.ab-my-chekbox{
+				position:relative;
+				.checkbox {
+				    display: none;
+				}
+				.checkbox-custom {
+				    position: relative;    
+				    width: 31px;             
+				    height: 30px;            
+				    border: 2px solid #A18F8F;
+				    background:none;
+				    border-radius: 5px;
+				    margin-top: 13px;
+				}
+				.checkbox-custom, .label {
+				    display: inline-block;
+				    vertical-align: middle;
+				}
+				.checkbox:checked + .checkbox-custom::before {
+				    content: "";            
+				    display: block;          
+				    position: absolute;      
+				    top: 4px;
+				    right: 2px;
+				    bottom: 2px;
+				    left: 1px;
+				    background: url(../img/ab-galka.png) no-repeat;
+				    border-radius: 2px;
+				}	
+			}
+			.ab-my-chekbox:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-1.png) no-repeat;
+				width: 54px;
+				height: 56px;
+			}
+			.ab-my-chekbox-2:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-2.png) no-repeat !important;
+				width: 54px;
+				height: 56px;
+			}
+			.ab-my-chekbox-3:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-3.png) no-repeat !important;
+				width: 54px;
+				height: 56px;
+			}
+		}
+		.col-padding-left-0{
+			padding-left:0;
+		}
+		.ab-last-block-comments-wrap{
+			text-align: center;
+			div{
+				margin-top: 32px; 
+			}
+			padding-top:32px;
+			.ab-last-block-txt{
+				font-family: "RobotoBold";
+				font-size: 18px;
+			}
+			.ab-last-block-input{
+				.ab-in-put{
+					border: 1px solid #D0D0D0;
+					border-radius:5px;
+					width: 226px;
+					//width: 258px;
+					height: 48px;
+					padding-left:5px;
+				}
+			}
+			.ab-last-block-button{
+				a{
+					display: inline-block;
+					font-family: "RobotoBold";
+					font-size: 24px;
+					background:#FFC600;
+					padding:8px 33px;
+					color: #131313;
+					border-radius:5px;
+				}
+			}
+			.ab-last-block-txt-bottom{
+				font-family: "RobotoRegular";
+				font-size: 14px;
+				color:#838383;
+			}
+		}
+	}
+}
+
+
+
+
+/*================== Конец Отзывы ===============*/
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -228,6 +485,24 @@
 		span{
 			font-size: 35px !important;
 		}
+	}
+
+	.ab-text-area{
+		width: 100%;
+	}
+	.ab-my-chekbox-wrap{
+		float: left;
+		
+	}
+	
+	.ab-chekbos-title{
+		text-align: left !important;
+	}
+	.ab-in-put{
+		width: 258px !important;
+	}
+	.margin-left20{
+		margin-left: 20px !important;
 	}
 }
 
@@ -301,9 +576,41 @@
 		padding-right:137px;
 		padding-bottom:40px;
     }
+    .ab-otziv-title{
+		text-align: center;
+		span{
+			font-size: 48px !important;
+		}
+	}
+	.ab-comments-wrap{
+		padding:50px 20px 50px 70px !important;
+	}
+	.ab-text-area{
+		width: 552px;
+	}
+	.ab-comform-wrap{
+		width: 552px;
+		float: left;
+	}
+	.ab-chekbox-wrap{
+		width: 464px;
+		float: left;
+		margin-left: 30px;
+	    margin-top: 25px;
+	}
+	.ab-last-block-comments-wrap{
+		text-align: left !important;
+	}
+	.ab-last-block-txt,	.ab-last-block-input, .ab-last-block-button{
+		float: left;
+	}
+	.ab-last-block-input, .ab-last-block-button{
+		padding-left:29px;
+	}	
 }
 
 @media only screen and (min-width : 1248px) {
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
