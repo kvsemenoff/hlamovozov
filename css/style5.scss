@@ -12,6 +12,12 @@
 	}
 	.zk_vivoz_caption{
 		text-align: left !important;
+	}
+	.zk_we_export_all{	
+		padding-left: 40px !important;
+		.zk_ex_caption{
+			font-size: 48px !important; 		
+		}
 	}	
 }
 
@@ -54,7 +60,7 @@
 }
 
 @media only screen and (min-width : 1248px) {
-
+								//========PREIMYSHESTVA============
 	.zk_preim_all{
 			padding-left: 30px;
 		.zk_caption{
@@ -72,7 +78,7 @@
 			}
 		} 
 	}
-
+						//=======================VIVOZ===========
 	.zk_vivoz{
 		padding:50px 0px !important;
 		padding-left: 35px !important;		
@@ -102,7 +108,23 @@
 		ul {		
 			margin-right: 55px;		
 		}
-	}								
+	}
+				//=========================WE_EXPORT=======
+	.zk_we_export_all{	
+	padding-left: 50px !important;
+	margin-bottom: -170px !important;
+	.zk_ex_caption{
+		font-size: 48px !important;		
+	}
+	.zk_export_one{		
+		margin:50px 20px 0px 0 !important;		
+		height:250px !important;		
+			.zk_img_ex_box img{
+				width:185px;
+				height:140px !important;			
+			}		
+		}
+	}																
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -134,7 +156,7 @@
 		font-size: 28px;
 		font-family: "RobotoBold";
 		color:#31343b;		
-		padding-top: 50px;
+		margin-top: 110px;
 	}
 	.zk_preim{
 		text-align: center;
@@ -193,6 +215,37 @@
 			background: url(..//img/zk_vivoz.png) center left no-repeat;
 			padding-left: 40px;
 			
+		}		
+	}
+}
+
+
+
+
+					//WE_EXPORT-----------------------------------------------
+
+
+.zk_we_export_all{
+	color:#31343b;
+	font-size: 16px;
+	font-family: "RobotoBold";
+	text-align: center;
+	vertical-align: middle;
+	margin:0 auto;	
+	height:auto;	
+	padding-left: 30px;	
+	.zk_ex_caption{
+		font-size: 33px;
+		color:#212121;
+	}
+	.zk_export_one{
+		float:left;
+		width:215px;
+		margin:50px 20px 20px 0;		
+		height:170px;		
+		.zk_img_ex_box img{
+			width:185px;
+			height:175px;			
 		}		
 	}
 }								
