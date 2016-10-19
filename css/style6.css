@@ -10,20 +10,21 @@
 	background-image: url('../img/osuh.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	min-height: 1156px;
-	padding-top: 200px;
+	background-size: cover;
+	padding-top: 100px;
 }
 .xa-osush h2{
 	text-align: center;
 	font-size: 48px;
 	font-family: "RobotoBold";
     color: #31343b;
-    margin: 60px 0;
+    margin: 40px 0;
 }
 .xa-osush p{
 	text-align: center;
 	font-size: 24px;
 	padding-top: 10px;
+	font-family: "RobotoRegular";
 }
 .xa-vbox{
 	text-align: center;
@@ -68,16 +69,53 @@ footer{
 	bottom: 0px;
 }
 .xa-zak{
-	padding-top: 120px;
+	padding-top: 50px;
 }
 .xa-zakbox img{
-	padding-left: 40px;
+	//padding-left: 40px;
 }
 .xa-zakbox{
-	width: 220px;
-	margin-left: 70px;
+	//width: 220px;
+	//margin-left: 70px;
 }
 .xa-zak h2{
 	padding: 20px 0;
 	text-align: center;
 }
+ .xa-newcol{
+ 	text-align: center;
+ }
+ @media only screen and (min-width: 992px){
+ 	.xa-newcol{
+		width: 20%;
+	}
+
+ }
+  @media only screen and (max-width: 992px){
+ 	.xa-zakbox{
+ 		margin: 10px 0;
+	}
+	.xa-vbox{
+		height: 300px;
+	}
+	.xa-vbox img{
+		width: 170px;
+		height: auto;
+	}
+	.xa-col50{
+		width: 50%;
+	}
+
+ }
+ @media only screen and (max-width: 768px){
+	.xa-osush{
+		padding-top: 250px;
+	}
+	.xa-vbox img{
+		width: 307px;
+		height: auto;
+	}
+	.xa-col100{
+		width: 100%;
+	}
+ }
