@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 
@@ -21,6 +20,8 @@
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
