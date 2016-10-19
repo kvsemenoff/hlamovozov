@@ -34,7 +34,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/bottom.php'); ?>
+	<?php require_once('includes/header-bottom.php'); ?>
 	<?php require_once('includes/we_export.php'); ?>
 	<?php require_once('includes/osush.php'); ?>
 	<?php require_once('includes/vivoz.php'); ?>
