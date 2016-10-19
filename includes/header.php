@@ -12,22 +12,22 @@
           
         </div>
         <div class="navbar-collapse collapse">
-          <div class="col-md-3 xa-logo">
+          <div class="col-md-3 col-sm-12 xa-logo">
             <a href="/">
               <img src="img/xa-logo.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12 xa-menu">
             <ul class="nav navbar-nav">
-              <li><a href="#">Наши услуги</a></li>
-              <li><a href="#">Почему мы</a></li>
-              <li><a href="#">Акции</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Контакты</a></li>
+              <li class=""><a href="#">Наши услуги</a></li>
+              <li class=""><a href="#">Почему мы</a></li>
+              <li class=""><a href="#">Акции</a></li>
+              <li class=""><a href="#">Отзывы</a></li>
+              <li class=""><a href="#">Контакты</a></li>
               
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-12">
             <span class="xa-phone">
               <a href="tel:+7 (499) 502-93-30 ">+7 (499) 502-93-30 </a>
             </span>

@@ -85,6 +85,19 @@ footer{
  .xa-newcol{
  	text-align: center;
  }
+ .xa-phone{
+	display: block;
+	padding-top: 8px;
+	font-size: 24px;
+	font-family: "RobotoBold";
+	white-space: nowrap;
+}
+.xa-logo{
+	padding-top: 5px;
+}
+.xa-col5{
+	width: 20%;
+}
  @media only screen and (min-width: 992px){
  	.xa-newcol{
 		width: 20%;
@@ -105,6 +118,11 @@ footer{
 	.xa-col50{
 		width: 50%;
 	}
+	.xa-menu{
+		
+		padding-left: 100px;
+	}
+	
 
  }
  @media only screen and (max-width: 768px){
@@ -118,22 +136,20 @@ footer{
 	.xa-col100{
 		width: 100%;
 	}
+	.xa-menu{
+		
+		padding-left: 0px;
+	}
  }
 
-.xa-logo{
-	padding-top: 5px;
-}
+
+
 .nav{
 	text-transform: uppercase !important;
 	font-family: "RobotoRegular";
 	font-size: 14px;
 }
-.xa-phone{
-	display: block;
-	padding-top: 8px;
-	font-size: 24px;
-	font-family: "RobotoBold";
-}
+
 .xa-phone a{
 	color: #000;
 	text-transform: none;
@@ -1812,6 +1828,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     -webkit-overflow-scrolling: touch
+}
+.navbar{
+	text-align: center;
 }
 .navbar-collapse.in {
     overflow-y: auto
@@ -3932,4 +3951,10 @@ button.close {
 }
 #hid{
 	opacity: 0;
+}
+
+
+.nav ul li a{
+	display: block;
+	text-align: center;
 }
