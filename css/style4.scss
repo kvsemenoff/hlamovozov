@@ -450,8 +450,93 @@
 
 
 .header-bottom{
+	background:url(../img/big-bg.jpg) no-repeat center;
+	background-size:cover;
+	height:660px;
+	padding-top:30px;
+	.ab-div-logo{
+		img{
+			margin: 0 auto; 
+		}
+	}
+	.ab-top-txt{
+		padding-bottom:10px;
+		padding-top:10px;
+		text-align: center;
+		a:first-child{
+			font-family: "RobotoBold";
+			font-size: 14px;
+			color:#2C3139;
+		}
+		a:last-child{
+			font-family: "RobotoRegular";
+			font-size: 14px;
+			color:#2C3139;
+			border-bottom: 1px dashed #2C3139;
+			margin-left: 9px;
+		}
+	}
+	.ab-top-right{
+		text-align: center;
+		span:first-child{
+			font-family: "RobotoBold";
+			font-size: 28px;
+			color:#2C3139;
+			display: block;
+		}
+		span:nth-child(2){
+			font-family: "RobotoRegular";
+			font-size: 14px;
+			display: block;
+			padding-top: 8px;
+			padding-bottom:13px;
+		}
+		a{
+			display: inline-block;
+			font-family: "RobotoBold";
+			font-size: 14px;
+			text-transform: uppercase;
+			padding:17px 19px;
+			background:#FFC600;
+			border-radius:5px;
+			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
+			transition: 1s linear;
+		}
+		a:hover{
+			background:#FFE21C;
+		}
+	}
+	.ab-down{
+		text-align: center;
+		margin-top:200px;
+		span{
+			display: block;
+			font-family: "RobotoBold";
+			//font-size: 46px;
+			font-size: 38px;
+			text-transform: uppercase;
+		}
+		a{
+			display: inline-block;
+			font-family: "RobotoBold";
+			//font-size: 20px;
+			font-size: 14px;
+			text-transform: uppercase;
+			padding:17px 19px;
+			background:#FFC600;
+			border-radius:5px;
+			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
+			transition: 1s linear;
+			margin-top:18px; 
 
+		}
+		a:hover{
+			background:#FFE21C;
+		}
+	}
 }
+
+
 /*=============== Конец Нижняя часть Хедер ===========*/
 
 
@@ -611,6 +696,21 @@
 	}
 	.ab-last-block-input, .ab-last-block-button{
 		padding-left:29px;
+	}
+	.ab-top-right{
+		text-align: right !important;
+		span:first-child{
+			font-size: 30px !important; 
+		}
+	}
+	.ab-top-txt{
+		padding-top:25px !important;
+	}
+	.ab-down{
+		margin-top: 322px !important;
+		span{
+			font-size: 46px;
+		} 
 	}	
 }
 
