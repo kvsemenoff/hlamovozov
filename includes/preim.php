@@ -8,14 +8,13 @@
 							<div class="zk-img-box">
 								<img src="img/zk_pre_1.png" alt="">
 							</div>			
-							<div>Вывоз мусора из всей квартиры от 2 до 6 часов (зависит от захламленности). </div>				
+							<div>Вывоз мусора из всей квартиры от 2 до 6 часов (зависит от захламленности). </div>		
 						</div>
 						<div class="zk_pr_ph">
 							<div class="zk-img-box">			
 								<img src="img/zk_pre_2.png" alt="">
 							</div>	
 								<div>Ваше нахождение в квартире не обязательно</div>
-
 						</div>
 						<div class="zk_pr_ph">
 							<div class="zk-img-box">				

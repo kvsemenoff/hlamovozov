@@ -4,6 +4,9 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.zk_export_one{
+		width: 50% !important;		
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -16,6 +19,9 @@
 	.zk_we_export_all{			
 		.zk_ex_caption{
 			font-size: 48px !important; 		
+		}
+		.zk_export_one{
+			width: 33.2% !important;		
 		}
 	}	
 }
@@ -99,16 +105,21 @@
 		}
 	}
 				//=========================WE_EXPORT=======
-	.zk_we_export_all{	
-	margin-bottom: 25px !important;
+	.zk_we_export_all{		
 		.zk_ex_caption{
 			font-size: 48px !important;		
 		}
-	
+		.zk_export_one{
+			width:20% !important;
+		}
+		.zk_first_child{
+			width:150px;
+			margin-left: 35px;
+		}			
 	}																
 }
 
-
+//media
 
 			//========================PREIMYSHESTVA---------------------------
 
@@ -117,27 +128,26 @@
 }
 
 .zk_preim_all{
-	width:100%;
-	height:auto;
-	text-align: center;
-	font-family: "RobotoRegular";
-	font-size: 16px;
-	margin-bottom: 110px;
-	color:#646464;	
+	width:100%;	
 	.zk_caption{
-		font-size: 28px;
+		font-size: 32px;
 		font-family: "RobotoBold";
 		color:#31343b;		
 		margin-top: 110px;
+		text-align: center;
 	}
 	.zk_preim{
 		text-align: center;
-		margin-top: 48px;		
-		.zk_pr_ph{							
+		margin-top: 48px;
+		font-family: "RobotoRegular";
+		font-size: 16px;
+		color:#646464;			
+		.zk_pr_ph{
+			text-align: center;							
 			margin-right:10px;
 			padding-bottom: 70px;
 			float: left;
-			width:270px;				
+			width:270px;							
 			div:last-child{				
 				height:40px;							
 				margin-top: 20px;
@@ -195,37 +205,37 @@
 					//WE_EXPORT-----------------------------------------------
 
 
-.zk_we_export_all{
-	color:#31343b;
-	font-size: 16px;
-	font-family: "RobotoBold";
-	text-align: center;	
-	margin:0 auto;	
-	height:auto;	
-	.zk_ex_caption{
+.zk_we_export_all{	
+	width:100%;	
+		.zk_ex_caption{
 		font-size: 33px;
 		color:#212121;
-		margin-top: 70px;
-	}
-	.zk_export_one{
+		margin-top: 0px;
+		font-family: "RobotoBold";
+		text-align: center;		
+	}	
+	.zk_export_one{		
+		color:#31343b;
+		font-size: 16px;
+		font-family: "RobotoBold";
+		text-align: center;	
 		float:left;
-		width:220px;
-		margin:42px 0px 20px 0;		
-		height:170px;		
+		width:100%;
+		min-width:220px;
+		height:190px;		
+		margin:42px 0 20px 0;			
 		.zk_img_ex_box img{
 			width:185px;
 			height:140px;			
 		}		
-	}
+	}	
 }
 
 
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
