@@ -18,10 +18,7 @@
 						<span>Положительные</span>
 					</div>
 					<div class="ab-face-number">
-						<span>2</span>
-						<span>8</span>
-						<span>0</span>
-						<span>3</span>
+						<span>2803</span>
 					</div>	
 				</div>
 			</div>
@@ -36,9 +33,7 @@
 						<span>Нейтральные</span>
 					</div>
 					<div class="ab-face-number ab-face-number-2">
-						<span>4</span>
-						<span>5</span>
-						<span>1</span>
+						<span>451</span>
 					</div>	
 				</div>
 			</div>
@@ -53,9 +48,7 @@
 						<span>Отрицательные</span>
 					</div>
 					<div class="ab-face-number ab-face-number-2">
-						<span>7</span>
-						<span>6</span>
-						<span>9</span>
+						<span>769</span>
 					</div>	
 				</div>
 			</div>
