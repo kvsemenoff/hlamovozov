@@ -22,7 +22,7 @@
 			<div class="col-md-12">
 				<div class="ab-down">
 					<span>Вывоз старой мебели</span>
-					<a class="wow pulse" data-wow-iteration="100" data-wow-duration="2.5s" href="#">Заказать услугу под ключ</a>
+					<a class="wow pulse" data-wow-iteration="infinite" data-wow-duration="2.5s" href="#">Заказать услугу под ключ</a>
 				</div>
 			</div>
 		</div>
