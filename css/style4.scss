@@ -494,6 +494,7 @@
 			border-radius:5px;
 			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
 			transition: 1s linear;
+			color:black;
 		}
 		a:hover{
 			background:#FFE21C;
@@ -520,7 +521,8 @@
 			border-radius:5px;
 			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
 			transition: 1s linear;
-			margin-top:18px; 
+			margin-top:18px;
+			color:black; 
 
 		}
 		a:hover{
@@ -708,6 +710,16 @@
 }
 
 @media only screen and (min-width : 1248px) {
+
+	.header-bottom{
+		height: 960px !important;
+		.ab-down{
+			padding-top: 250px;
+			a{
+				margin-top: 37px !important; 
+			} 
+		}
+	}
 
 }
 
