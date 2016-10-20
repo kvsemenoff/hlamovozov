@@ -8,13 +8,12 @@
 
 @media only screen and (min-width : 768px) {
 	.zk_caption{
-		font-size:35px !important;
+		font-size:40px !important;
 	}
 	.zk_vivoz_caption{
 		text-align: left !important;
 	}
-	.zk_we_export_all{	
-		padding-left: 40px !important;
+	.zk_we_export_all{			
 		.zk_ex_caption{
 			font-size: 48px !important; 		
 		}
@@ -26,12 +25,9 @@
 		font-size:45px !important;
 	}
 
-	.zk_vivoz{
-		padding:50px 0px;
-		padding-left: 15px !important;		
+	.zk_vivoz{			
 		.zk_vivoz_caption{
-			font-size: 45px !important;
-			padding-right: 135px !important;
+			font-size: 45px !important;			
 			text-align: left;
 			margin-top: 25px !important;
 			margin-bottom: 20px !important;			
@@ -43,7 +39,7 @@
 			background-image: url(..//img/zk_vivoz_man.png) no-repeat;
 			visibility: visible !important;
 			display: inline-block !important;
-			margin: 0 12px !important;				
+			margin-right:10px !important;				
 		}
 		.first_v{
 			float:left;
@@ -62,26 +58,20 @@
 @media only screen and (min-width : 1248px) {
 								//========PREIMYSHESTVA============
 	.zk_preim_all{
-			padding-left: 30px;
+			
 		.zk_caption{
 			font-size:48px !important;
 		}	
-		.zk_preim{			
-			.zk_pr_ph{			
-				width:300px !important;				
-			}
-		}
+		
 		.zk_second_line{
 			padding-left: 145px;
 			.zk_pr_ph:last-child{
-				width:330px !important;
-			}
+			 	width:330px !important;
+			 }
 		} 
 	}
 						//=======================VIVOZ===========
-	.zk_vivoz{
-		padding:40px 0px !important;
-		padding-left: 35px !important;		
+	.zk_vivoz{				
 		.zk_vivoz_caption{
 			font-size: 48px !important;
 			margin-top: 40px !important;
@@ -93,7 +83,7 @@
 			background-image: url(..//img/zk_vivoz_man.png) no-repeat;
 			visibility: visible !important;
 			display: inline-block !important;
-			margin: 0 9px !important;			
+			margin-right:15px !important;			
 			text-align: center;					
 		}
 		.first_v{
@@ -110,17 +100,11 @@
 	}
 				//=========================WE_EXPORT=======
 	.zk_we_export_all{	
-	padding-left: 50px !important;
-	margin-bottom: -15px !important;
-	.zk_ex_caption{
-		font-size: 48px !important;		
-	}
-
-	.zk_export_one{		
-		margin:50px 20px 0px 0 !important;		
-		height:250px !important;		
-							
+	margin-bottom: 25px !important;
+		.zk_ex_caption{
+			font-size: 48px !important;		
 		}
+	
 	}																
 }
 
@@ -150,10 +134,10 @@
 		text-align: center;
 		margin-top: 48px;		
 		.zk_pr_ph{							
-			padding:0 10px;
+			margin-right:10px;
 			padding-bottom: 70px;
 			float: left;
-			width:300px;				
+			width:270px;				
 			div:last-child{				
 				height:40px;							
 				margin-top: 20px;
@@ -177,11 +161,10 @@
 
 
 .zk_vivoz{
-	padding:50px 5px;
+	padding:50px 0px;
 	font-size: 18px;
 	font-family: "RobotoRegular";
-	color:#646464;	
-	padding-left: 25px;	
+	color:#646464;		
 	.zk_vivoz_caption{
 		font-size: 33px;
 		font-family: "RobotoBold";
@@ -196,13 +179,12 @@
 		display: none;
 	}	
 	ul {						
-		text-align: left;
+		
 		li{			
 			line-height: 1.5em;
-			padding: 14px 0;
+			padding: 11px 0;
 			background: url(..//img/zk_vivoz.png) center left no-repeat;
-			padding-left: 40px;
-			
+			padding-left: 40px;			
 		}		
 	}
 }
@@ -217,11 +199,9 @@
 	color:#31343b;
 	font-size: 16px;
 	font-family: "RobotoBold";
-	text-align: center;
-	vertical-align: middle;
+	text-align: center;	
 	margin:0 auto;	
 	height:auto;	
-	padding-left: 30px;	
 	.zk_ex_caption{
 		font-size: 33px;
 		color:#212121;
@@ -229,8 +209,8 @@
 	}
 	.zk_export_one{
 		float:left;
-		width:215px;
-		margin:50px 20px 20px 0;		
+		width:220px;
+		margin:42px 0px 20px 0;		
 		height:170px;		
 		.zk_img_ex_box img{
 			width:185px;
@@ -238,9 +218,6 @@
 		}		
 	}
 }
-
-
-
 
 
 
