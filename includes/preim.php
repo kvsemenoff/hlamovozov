@@ -35,11 +35,11 @@
 					<div>Собственный парк техники</div>				
 			</div>
 		</div>
-		<div class="clearfix"></div>						
+		<div class="clearfix"></div>							
 		<div class="col-md-4">	
 			<div class="zk_pr_ph">
 				<div class="zk-img-box">
-			 	<img src="img/zk_pre_5.png" alt="">
+			 		<img src="img/zk_pre_5.png" alt="">
 			 	</div>
 			 	<div>Постоянно растущее количество бригад</div>
 			</div>
@@ -47,7 +47,7 @@
 		<div class="col-md-4">	
 			<div class="zk_pr_ph">
 				<div class="zk-img-box">
-			 	<img src="img/zk_pre_6.png" alt="">
+			 		<img src="img/zk_pre_6.png" alt="">
 			 	</div>
 			 	<div>Зона обслуживания Москва и до 50 км вокруг Москвы</div>
 			</div>
@@ -55,11 +55,11 @@
 		<div class="col-md-4">	
 			<div class="zk_pr_ph">
 				<div class="zk-img-box">
-			 	<img src="img/zk_pre_7.png" alt="">
+			 		<img src="img/zk_pre_7.png" alt="">
 			 	</div>
 			 	<div>Официальные договора со свалками ТБО (мусор не выкинут в соседний лес)</div>
 			</div>
-		</div>						
+		</div>								
 		<div class="clear"></div>			
 	</div>
 </div>
