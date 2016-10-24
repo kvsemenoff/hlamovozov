@@ -37,7 +37,7 @@
 		</div>
 		<div class="clearfix"></div>							
 		<div class="col-md-4">	
-			<div class="zk_pr_ph">
+			<div class="zk_pr_ph" >
 				<div class="zk-img-box">
 			 		<img src="img/zk_pre_5.png" alt="">
 			 	</div>

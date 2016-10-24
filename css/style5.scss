@@ -74,10 +74,9 @@
 		.zk_caption{
 			font-size:48px !important;
 		}		
-			.zk_pr_ph:last-child{
-			 	width:330px !important;
-			 }
-	
+			// .zk_pr_ph:last-child{
+			//  	width:330px !important;
+			//  }	
 	}
 						//=======================VIVOZ===========
 	.zk_vivoz{				
@@ -130,8 +129,6 @@
 	clear:both;
 }
 
-
-	
 .zk_caption{
 font-size: 35px;
 font-family: "RobotoBold";
@@ -139,7 +136,8 @@ color:#31343b;
 margin-top: 110px;
 margin-bottom: 50px;
 text-align: center;
-}		
+}
+
 .zk_pr_ph{
 	margin-top: 48px;
 	font-family: "RobotoRegular";
@@ -149,7 +147,7 @@ text-align: center;
 	padding-bottom: 65px;	
 	width:270px;		
 	margin: 0 auto;
-	div:last-child{padding:10px 12px;}	
+	div:last-child{padding:10px 12px;}    
 	.zk-img-box{							
 		height:141px;
 		width:140px;				

@@ -1,34 +1,34 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="zk_we_export_all">
+			<div class="zk_we_export_all " >
 				<h3 class="zk_ex_caption">Мы вывозим</h3>
-				<div class="zk_export_one wow bounceInDown" data-animated-duration="20.5s">
-					<div class="zk_img_ex_box">
+				<div class="zk_export_one wow bounceInDown "  data-animated-duration="30.5s">
+					<div class="zk_img_ex_box wow pulse animated"  data-wow-iteration="2"  data-wow-duration="2.5s" data-wow-delay="2s">
 						<img src="img/zk_export.png" alt="">
 				    </div>
 					<div class="zk_first_child">Старую мебель вещи и книги</div>
 				</div>
-				<div class="zk_export_one wow bounceInDown" data-animated-duration="20.5s">
-					<div class="zk_img_ex_box"> 
+				<div class="zk_export_one wow bounceInDown " data-animated-duration="30.5s">
+					<div class="zk_img_ex_box wow pulse animated"  data-wow-iteration="2"  data-wow-duration="2.5s" data-wow-delay="2s"> 
 						<img src="img/zk_export2.png" alt="">
 					</div>
 					<div>Строительный мусор, ванны и радиаторы</div>
 				</div>
-				<div class="zk_export_one wow bounceInDown" data-animated-duration="20.5s">
-					<div class="zk_img_ex_box">
+				<div class="zk_export_one wow bounceInDown " data-animated-duration="30.5s">
+					<div class="zk_img_ex_box wow pulse animated"  data-wow-iteration="2"  data-wow-duration="2.5s" data-wow-delay="2s">
 					 	<img src="img/zk_export3.png" alt="">
 					 </div>
 					<div>Пианино</div>
 				</div>
-				<div class="zk_export_one wow bounceInDown" data-animated-duration="20.5s">
-					<div class="zk_img_ex_box">
+				<div class="zk_export_one wow bounceInDown " data-animated-duration="30.5s">
+					<div class="zk_img_ex_box wow pulse animated"  data-wow-iteration="2"  data-wow-duration="2.5s" data-wow-delay="2s">
 						<img src="img/zk_export4.png" alt="">
 					</div>
 					<div>Старые окна</div>
 				</div>
-				<div class="zk_export_one wow bounceInDown" data-animated-duration="20.5s">
-					<div class="zk_img_ex_box">
+				<div class="zk_export_one wow bounceInDown " data-animated-duration="30.5s">
+					<div class="zk_img_ex_box wow pulse animated"  data-wow-iteration="2"  data-wow-duration="2.5s" data-wow-delay="2s">
 						<img src="img/zk_export5.png" alt="">
 					</div>
 					<div>Бытовую технику</div>
